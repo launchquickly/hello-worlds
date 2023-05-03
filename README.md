@@ -3,6 +3,7 @@
 hello-world examples for a number of different programming languages, including:
 
 - [Go](/go/README.md)
+- [Java](/java/README.md)
 
 The objective of each example is to illustrate a basic codebase setup and tooling for each, including:
 
