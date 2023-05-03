@@ -26,5 +26,11 @@ To run tests:
 make test
 ```
 
+### Run
+Run the application:
+```zsh
+make run
+```
+
 ## License
 Copyright © 2023, Launchquickly Limited. Released under the [Apache 2.0](/LICENSE) License.
