@@ -1,0 +1,32 @@
+[project]
+name = "hello-world"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "pauljkearney",email = "paulkearney@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "hello_world", from = "src"}]
+
+[tool.black]
+line-length = 88
+target-version = ["py314"]
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.3,<10.0.0)",
+    "black (>=26.3.1,<27.0.0)",
+    "isort (>=8.0.1,<9.0.0)"
+]
